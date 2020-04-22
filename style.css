@@ -1,0 +1,53 @@
+html {
+  font-size: 10px;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  padding-top: 180px;
+  padding-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: black;
+}
+
+.counters {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.results {
+  padding-bottom: 30px;
+}
